@@ -1,0 +1,79 @@
+/* Estilos globais */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #7997c4;
+  color: #333;
+}
+
+header {
+  background-color: #0051ff;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+h2 {
+  color: #0051ff;
+}
+
+#minha-foto {
+  width: 200px;
+  border-radius: 50%;
+  display: block;
+  margin: 10px auto;
+}
+
+section {
+  padding: 20px;
+  max-width: 800px;
+  margin: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+table, th, td {
+  border: 1px solid #ccc;
+}
+
+th {
+  background-color: #0051ff;
+  color: white;
+}
+
+td, th {
+  padding: 10px;
+  text-align: center;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+form input[type="submit"] {
+  background-color: #0051ff;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+  background-color: #003bb3;
+}
+
+footer {
+  text-align: center;
+  background-color: #ddd;
+  padding: 10px;
+  margin-top: 30px;
+}
